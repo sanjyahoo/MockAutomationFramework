@@ -6,24 +6,22 @@ This is a modular and extensible automation testing framework built with Java, S
 
 ## 📁 Project Structure
 
-MockFramework/
-├── src/
-│ ├── main/java/
-│ │ ├── base/ # Base classes for driver setup and test initialization
-│ │ ├── config/ # Centralized configuration management
-│ │ ├── drivers/ # Browser driver setup
-│ │ ├── pages/ # Page Object Model classes
-│ │ ├── utils/ # Utilities like waits, screenshots, data handlers
-│ │ └── Listners/ # TestNG listeners for logging/reporting
-│ └── test/java/
-│ └── tests/ # Test classes organized by features
-├── testng.xml # Test suite configuration
-├── pom.xml # Maven dependencies and build config
-├── Jenkinsfile (optional)
-└── test-output/ # TestNG output reports
+- MockFramework/
+  - src/
+    - main/java/
+      - base/          (Base classes for driver setup and test initialization)
+      - config/        (Centralized configuration management)
+      - drivers/       (Browser driver setup)
+      - pages/         (Page Object Model classes)
+      - utils/         (Utilities like waits, screenshots, data handlers)
+      - Listners/      (TestNG listeners for logging/reporting)
+    - test/java/
+      - tests/         (Test classes organized by features)
+  - testng.xml          (Test suite configuration)
+  - pom.xml             (Maven dependencies and build config)
+  - Jenkinsfile (optional)
+  - test-output/        (TestNG output reports)
 
-
----
 
 ## ⚙️ Tech Stack
 
